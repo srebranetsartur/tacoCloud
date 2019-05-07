@@ -8,3 +8,8 @@ body {
 .validationError span {
     color: red;
 }
+
+img .tacoImage{
+    width: 100%;
+    height: 100%;
+}
