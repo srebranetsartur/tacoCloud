@@ -15,7 +15,7 @@
 
         <h1>Order your taco creation</h1>
 
-        <img class="image-fluid" th:src="@{/images/taco_logo.jpg}" />
+        <img class="rounded mx-auto d-block img-fluid tacoImage" th:src="@{/images/taco_logo.jpg}" alt="Taco Image" />
 
         <form method="POST" th:action="@{/orders}" th:object="${order}">
             <div th:if="${#fields.hasErrors()}">

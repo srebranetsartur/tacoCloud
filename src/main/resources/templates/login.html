@@ -11,7 +11,7 @@
 <body>
     <div th:insert="header :: header"></div>
     <h1>Design your taco</h1>
-    <img class="image-fluid" th:src="@{/images/taco_logo.jpg}" />
+    <img class="rounded mx-auto d-block img-fluid tacoImage" th:src="@{/images/taco_logo.jpg}" alt="Taco Image" />
 
     <p>Doesn't have a account? <a th:href="@{/register}">Click here</a> </p>
 

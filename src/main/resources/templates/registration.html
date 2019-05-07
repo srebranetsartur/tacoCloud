@@ -12,7 +12,7 @@
     <div th:insert="header :: header"></div>
 
     <h1>Design your taco</h1>
-    <img class="image-fluid" th:src="@{/images/taco_logo.jpg}" />
+    <img class="rounded mx-auto d-block img-fluid tacoImage" th:src="@{/images/taco_logo.jpg}" alt="Taco Image" />
 
     <form method="post" th:action="@{/register}" id="registerForm">
         <label for="username">Username: </label>
